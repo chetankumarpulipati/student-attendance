@@ -7,17 +7,22 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+// import { useState } from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      <Banner />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+    // const [title, setTitle] = useState("Initial Title");
+    // useState(() => {
+    //     document.title = title;
+    // },[title]);
+    return (
+        <div className="App">
+            <NavBar/>
+            <Banner/>
+            <Skills/>
+            <Projects/>
+            <Contact/>
+            <Footer/>
+        </div>
   );
 }
 
